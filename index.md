@@ -320,7 +320,7 @@ levels(x$Rating) <- substring(levels(x$Rating), 4,
 ```
 
 ```
-## Error: object 'x' not found
+## Error: $ operator is invalid for atomic vectors
 ```
 
 ```r
@@ -328,7 +328,7 @@ x$Ranking <- x$Rating
 ```
 
 ```
-## Error: object 'x' not found
+## Error: $ operator is invalid for atomic vectors
 ```
 
 ```r
@@ -336,7 +336,7 @@ levels(x$Ranking) <- nlevels(x$Rating):1
 ```
 
 ```
-## Error: object 'x' not found
+## Error: $ operator is invalid for atomic vectors
 ```
 
 ```r
@@ -344,7 +344,7 @@ x$Ranking <- as.character(x$Ranking)
 ```
 
 ```
-## Error: object 'x' not found
+## Error: $ operator is invalid for atomic vectors
 ```
 
 ```r
@@ -352,7 +352,7 @@ x$Rating <- paste(x$Country, x$Rating, sep=": ")
 ```
 
 ```
-## Error: object 'x' not found
+## Error: $ operator is invalid for atomic vectors
 ```
 
 ```r
@@ -770,10 +770,12 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] knitr_1.2
+## [1] slidify_0.3.3 devtools_1.2 
 ## 
 ## loaded via a namespace (and not attached):
-## [1] digest_0.6.3   evaluate_0.4.3 formatR_0.7    stringr_0.6.2 
-## [5] tools_3.0.0
+##  [1] digest_0.6.3   evaluate_0.4.3 formatR_0.7    httr_0.2      
+##  [5] knitr_1.2      markdown_0.5.4 memoise_0.1    parallel_3.0.0
+##  [9] RCurl_1.95-4.1 stringr_0.6.2  tools_3.0.0    whisker_0.3-2 
+## [13] yaml_2.1.7
 ```
 
