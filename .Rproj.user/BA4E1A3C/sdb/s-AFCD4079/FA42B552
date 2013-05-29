@@ -1,0 +1,15 @@
+{
+    "contents" : "---\ntitle       : My First Test\nsubtitle    : HTML5 slides\nauthor      : JPN\njob         : \nframework   : io2012        # {io2012, html5slides, shower, dzslides, ...}\nhighlighter : highlight.js  # {highlight.js, prettify, highlight}\nhitheme     : tomorrow      # \nwidgets     : [mathjax]     # {mathjax, quiz, bootstrap}\nmode        : selfcontained # {standalone, draft}\n  \n--- .class #id \n\n## Plot Eg\n\n```{r, echo=FALSE, fig.height = 6}\n# echo=FALSE do not show code, just results\ndata(iris)\nplot(iris)\n```\n\n---\n\nYou can use Latex's typesetting\n$$\\sum_{i=0}^n x_i$$\n\n---\n\n### A Simple Plot\n\nLet us create a simple scatterplot. \n\n```{r simple-plot, fig.height = 6, fig.align = 'center', message = F}\nrequire(ggplot2)\nqplot(wt, mpg, data = mtcars)\n```\n\n--- \n\n### A Table\n\n```{r table, results = 'asis', comment = NA}\nlibrary(xtable)\noptions(xtable.type = 'html')\nxtable(head(mtcars))\n```\n\n---\n\n## Animated List\n\n> 1. Point 1\n> 2. Point 2\n\n\n<!-- Do it once to install needed packages:\n# library(devtools)\n# install_github('slidify', 'ramnathv')\n# install_github('slidifyLibraries', 'ramnathv')\n-->\n\n<!-- need to execute:\nlibrary(slidify)\nauthor(\"slidifyEg\")  # create a new slidify project\nslidify(\"index.Rmd\") # can be made at RStudio with the 'Knit HTML'\n\npublish('slidifyFolder', host = 'dropbox')  # to post at dbox's Public folder\n\n# replace USER and REPO with your username and reponame\n# publish(user = \"USER\", repo = \"REPO\", host = 'github')\n------------------------------------------------------------ -->",
+    "created" : 1369843988155.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1618565978",
+    "id" : "FA42B552",
+    "lastKnownWriteTime" : 1364382074,
+    "path" : "~/Documents/GitHub/slidify-tutorial/pg2.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
