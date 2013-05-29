@@ -10,8 +10,8 @@ widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 license     : by-nc-sa
 github      :
-  user      : mages
-  repo      : Introduction_to_googleVis
+  user      : jpneto
+  repo      : slidify-tutorial
 ---
 
 ## Disclaimer
