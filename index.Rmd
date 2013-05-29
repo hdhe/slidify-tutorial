@@ -16,7 +16,7 @@ github      :
 
 ## Disclaimer
 
-1. I am an autodidact 
+1. I am an autodidact (me too)
 2. What I present here works for me
 3. Read and follow the official [Google Chart API documentation](https://developers.google.com/chart/) and [Terms of Service](https://developers.google.com/readme/terms)
 4. Sometimes you have re-load this presentation for the charts and all slides to appear
